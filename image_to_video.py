@@ -2,8 +2,7 @@ import cv2
 import os
 
 
-WORD_IMAGES_DIR = os.path.join(
-    "/home/niteshrawat/My_Projects/gdata", "word_images_per_day")
+WORD_IMAGES_DIR = os.path.join(os.getcwd(), "word_images_per_day")
 
 
 # Linux:

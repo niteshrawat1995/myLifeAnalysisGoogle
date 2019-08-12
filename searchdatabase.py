@@ -13,7 +13,7 @@ cur = db.cursor()
 # print(data)
 
 SEARCH_ACTIVITY = os.path.join(
-    "/home/niteshrawat/My_Projects/gdata/takeout-20190811T082416Z-001/Takeout/My Activity/Search", "MyActivity.json")
+    os.getcwd(), "takeout-20190811T082416Z-001/Takeout/My Activity/Search", "MyActivity.json")
 
 
 def make_table():

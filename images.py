@@ -19,8 +19,7 @@ db = mysql.connector.connect(
     host="localhost", user="nitesh", password="password", database="mylife")
 cur = db.cursor()
 
-WORD_IMAGES_DIR = os.path.join(
-    "/home/niteshrawat/My_Projects/gdata", "word_images_per_day")
+WORD_IMAGES_DIR = os.path.join(os.getcwd(), "word_images_per_day")
 
 DAY = 86400
 YEAR = 365 * DAY
